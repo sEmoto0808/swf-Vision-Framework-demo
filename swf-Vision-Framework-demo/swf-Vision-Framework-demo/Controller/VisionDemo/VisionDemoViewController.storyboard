@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ueq-mx-7lg">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--VisionDemoViewController-->
+        <scene sceneID="hHm-3J-hOd">
+            <objects>
+                <viewController title="VisionDemoViewController" id="Ueq-mx-7lg" customClass="VisionDemoViewController" customModule="swf_Vision_Framework_demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="weK-28-SjF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wpn-JC-RX1">
+                                <rect key="frame" x="16" y="216" width="343" height="235"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wpn-JC-RX1" firstAttribute="leading" secondItem="GYV-rj-Hil" secondAttribute="leading" constant="16" id="A25-jx-FfK"/>
+                            <constraint firstItem="wpn-JC-RX1" firstAttribute="top" secondItem="GYV-rj-Hil" secondAttribute="top" constant="196" id="BaG-ne-64l"/>
+                            <constraint firstItem="GYV-rj-Hil" firstAttribute="bottom" secondItem="wpn-JC-RX1" secondAttribute="bottom" constant="216" id="Hq2-iZ-7We"/>
+                            <constraint firstItem="GYV-rj-Hil" firstAttribute="trailing" secondItem="wpn-JC-RX1" secondAttribute="trailing" constant="16" id="ffW-26-xct"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GYV-rj-Hil"/>
+                    </view>
+                    <connections>
+                        <outlet property="originalImageView" destination="wpn-JC-RX1" id="gB6-cB-c4y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gbT-cg-nfa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="96.799999999999997" y="149.77511244377811"/>
+        </scene>
+    </scenes>
+</document>
