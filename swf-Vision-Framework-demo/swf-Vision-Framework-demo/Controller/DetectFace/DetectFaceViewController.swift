@@ -10,7 +10,7 @@ import UIKit
 
 import Vision
 
-class VisionDemoViewController: UIViewController {
+class DetectFaceViewController: UIViewController {
 
     private let vision = VisionHelper()
     private let originalImage = UIImage(named: "many_people")
@@ -19,6 +19,18 @@ class VisionDemoViewController: UIViewController {
     private var faceImage: UIImage?
     
     @IBOutlet weak var originalImageView: UIImageView!
+    
+    
+    class func create() -> DetectFaceViewController {
+        
+        if let vc = UIStoryboard
+            .viewController(storyboardName: DetectFaceViewController.className,
+                            identifier: DetectFaceViewController.className) as? DetectFaceViewController {
+            
+            return vc
+        }
+        fatalError("unwap DetectFaceViewController")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

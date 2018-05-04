@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A219E58C209C0FF900D1C182 /* StartUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219E58B209C0FF900D1C182 /* StartUpViewController.swift */; };
+		A219E58E209C100700D1C182 /* StartUpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A219E58D209C100700D1C182 /* StartUpViewController.storyboard */; };
+		A219E590209C118F00D1C182 /* UIButton+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219E58F209C118F00D1C182 /* UIButton+Border.swift */; };
+		A219E592209C133B00D1C182 /* UIStoryboard+Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219E591209C133B00D1C182 /* UIStoryboard+Instance.swift */; };
+		A219E594209C143C00D1C182 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219E593209C143C00D1C182 /* NSObject+ClassName.swift */; };
 		A2884A6F209BF36D002F86C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2884A6E209BF36D002F86C0 /* AppDelegate.swift */; };
 		A2884A76209BF36F002F86C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2884A75209BF36F002F86C0 /* Assets.xcassets */; };
 		A2884A79209BF36F002F86C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2884A77209BF36F002F86C0 /* LaunchScreen.storyboard */; };
 		A2884A84209BF36F002F86C0 /* swf_Vision_Framework_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2884A83209BF36F002F86C0 /* swf_Vision_Framework_demoTests.swift */; };
 		A2884A90209BF385002F86C0 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2884A8F209BF385002F86C0 /* Vision.framework */; };
 		A2884A93209BF411002F86C0 /* VisionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2884A92209BF411002F86C0 /* VisionHelper.swift */; };
-		A2884A9C209BF80F002F86C0 /* VisionDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2884A9B209BF80F002F86C0 /* VisionDemoViewController.swift */; };
-		A2884A9E209BF820002F86C0 /* VisionDemoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2884A9D209BF820002F86C0 /* VisionDemoViewController.storyboard */; };
+		A2884A9C209BF80F002F86C0 /* DetectFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2884A9B209BF80F002F86C0 /* DetectFaceViewController.swift */; };
+		A2884A9E209BF820002F86C0 /* DetectFaceViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2884A9D209BF820002F86C0 /* DetectFaceViewController.storyboard */; };
 		A2884AA1209BFD59002F86C0 /* VisionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2884AA0209BFD59002F86C0 /* VisionProtocols.swift */; };
 		A2884AA5209C01B8002F86C0 /* CGRect+ConvertFromSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2884AA4209C01B8002F86C0 /* CGRect+ConvertFromSize.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A219E58B209C0FF900D1C182 /* StartUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUpViewController.swift; sourceTree = "<group>"; };
+		A219E58D209C100700D1C182 /* StartUpViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StartUpViewController.storyboard; sourceTree = "<group>"; };
+		A219E58F209C118F00D1C182 /* UIButton+Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Border.swift"; sourceTree = "<group>"; };
+		A219E591209C133B00D1C182 /* UIStoryboard+Instance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Instance.swift"; sourceTree = "<group>"; };
+		A219E593209C143C00D1C182 /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
 		A2884A6B209BF36D002F86C0 /* swf-Vision-Framework-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swf-Vision-Framework-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2884A6E209BF36D002F86C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2884A75209BF36F002F86C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,8 +50,8 @@
 		A2884A85209BF36F002F86C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2884A8F209BF385002F86C0 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
 		A2884A92209BF411002F86C0 /* VisionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionHelper.swift; sourceTree = "<group>"; };
-		A2884A9B209BF80F002F86C0 /* VisionDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionDemoViewController.swift; sourceTree = "<group>"; };
-		A2884A9D209BF820002F86C0 /* VisionDemoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VisionDemoViewController.storyboard; sourceTree = "<group>"; };
+		A2884A9B209BF80F002F86C0 /* DetectFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectFaceViewController.swift; sourceTree = "<group>"; };
+		A2884A9D209BF820002F86C0 /* DetectFaceViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetectFaceViewController.storyboard; sourceTree = "<group>"; };
 		A2884AA0209BFD59002F86C0 /* VisionProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionProtocols.swift; sourceTree = "<group>"; };
 		A2884AA4209C01B8002F86C0 /* CGRect+ConvertFromSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+ConvertFromSize.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,7 +152,7 @@
 		A2884A98209BF7C3002F86C0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A2884A9A209BF7EA002F86C0 /* VisionDemo */,
+				A2884A9A209BF7EA002F86C0 /* DetectFace */,
 				A2884A99209BF7DA002F86C0 /* Startup */,
 			);
 			path = Controller;
@@ -152,17 +162,19 @@
 			isa = PBXGroup;
 			children = (
 				A2884A77209BF36F002F86C0 /* LaunchScreen.storyboard */,
+				A219E58B209C0FF900D1C182 /* StartUpViewController.swift */,
+				A219E58D209C100700D1C182 /* StartUpViewController.storyboard */,
 			);
 			path = Startup;
 			sourceTree = "<group>";
 		};
-		A2884A9A209BF7EA002F86C0 /* VisionDemo */ = {
+		A2884A9A209BF7EA002F86C0 /* DetectFace */ = {
 			isa = PBXGroup;
 			children = (
-				A2884A9B209BF80F002F86C0 /* VisionDemoViewController.swift */,
-				A2884A9D209BF820002F86C0 /* VisionDemoViewController.storyboard */,
+				A2884A9B209BF80F002F86C0 /* DetectFaceViewController.swift */,
+				A2884A9D209BF820002F86C0 /* DetectFaceViewController.storyboard */,
 			);
-			path = VisionDemo;
+			path = DetectFace;
 			sourceTree = "<group>";
 		};
 		A2884A9F209BFCFC002F86C0 /* Protocol */ = {
@@ -177,6 +189,9 @@
 			isa = PBXGroup;
 			children = (
 				A2884AA4209C01B8002F86C0 /* CGRect+ConvertFromSize.swift */,
+				A219E58F209C118F00D1C182 /* UIButton+Border.swift */,
+				A219E591209C133B00D1C182 /* UIStoryboard+Instance.swift */,
+				A219E593209C143C00D1C182 /* NSObject+ClassName.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -263,7 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2884A79209BF36F002F86C0 /* LaunchScreen.storyboard in Resources */,
-				A2884A9E209BF820002F86C0 /* VisionDemoViewController.storyboard in Resources */,
+				A2884A9E209BF820002F86C0 /* DetectFaceViewController.storyboard in Resources */,
+				A219E58E209C100700D1C182 /* StartUpViewController.storyboard in Resources */,
 				A2884A76209BF36F002F86C0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +301,11 @@
 				A2884A6F209BF36D002F86C0 /* AppDelegate.swift in Sources */,
 				A2884AA5209C01B8002F86C0 /* CGRect+ConvertFromSize.swift in Sources */,
 				A2884AA1209BFD59002F86C0 /* VisionProtocols.swift in Sources */,
-				A2884A9C209BF80F002F86C0 /* VisionDemoViewController.swift in Sources */,
+				A2884A9C209BF80F002F86C0 /* DetectFaceViewController.swift in Sources */,
+				A219E590209C118F00D1C182 /* UIButton+Border.swift in Sources */,
+				A219E592209C133B00D1C182 /* UIStoryboard+Instance.swift in Sources */,
+				A219E58C209C0FF900D1C182 /* StartUpViewController.swift in Sources */,
+				A219E594209C143C00D1C182 /* NSObject+ClassName.swift in Sources */,
 				A2884A93209BF411002F86C0 /* VisionHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
